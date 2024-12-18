@@ -1,11 +1,11 @@
 ﻿global using ErrorAction = System.Action<CS8_MessageAPI.Models.ErrorRecord>;
 using CS8_MessageAPI.Services;
-
+// this is my PostMan analog
 var apiService = new ApiService();
 
 var loginSuccess = true;
 
-await apiService.Login("jcox@winsor.edu", "not my password",
+await apiService.Login("jiwon.lee@winsor.edu", "%@&EWJhdh714",
     err =>
     {
         Console.WriteLine(err);
